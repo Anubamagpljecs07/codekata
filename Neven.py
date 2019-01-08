@@ -1,4 +1,4 @@
-#g anu
+#g anug
 n,m=(map(int,input().split()))
 c=0
 for i in range(n+1,m):
