@@ -1,3 +1,4 @@
+#g anu
 x=[int(i) for i in input().split()]
 y=[int(j) for j in input().split()]
 c=x[0]*60+x[1]
