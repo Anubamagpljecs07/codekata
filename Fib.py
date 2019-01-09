@@ -1,3 +1,4 @@
+#g anu
 a,b,c,d=0,1,0,0
 f=[]
 n=int(input())
