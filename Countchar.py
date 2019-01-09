@@ -1,3 +1,4 @@
+#g anu
 s=input()
 c=0
 a=s.replace(" ", "")
