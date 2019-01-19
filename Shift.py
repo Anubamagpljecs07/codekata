@@ -6,4 +6,8 @@ for j in range(len(l),len(l)-k,-1):
     l.pop()
 for i in l:
     a.append(i)
-print(a)
+for k in range(0,len(a)):
+    if k==0:
+        print(a[k],end="")
+    else:
+        print("",a[k],end="")
