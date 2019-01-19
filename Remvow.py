@@ -1,3 +1,4 @@
+n=int(input())
 k=input()
 s=list(k)
 v=['a','A','e','E','i','I','o','O','u','U']
