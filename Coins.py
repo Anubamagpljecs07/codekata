@@ -1,9 +1,10 @@
 n,m=map(int,input().split())
-l=list(map(int,input().split()))
-l=sorted(l,reverse=True)
-s=0
-for i in l:
-	while(m!=0):
-		s=s+(m%i)
-		m=m//i
-print(s)
+s=list(map(int,input().split()))
+s=sorted(s,reverse=True)
+c=0
+for i in s:
+	if i<=m:
+		d=m//i
+		c+=d
+		m=m-(d*i)
+print(c)
